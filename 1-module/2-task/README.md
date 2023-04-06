@@ -14,11 +14,11 @@ function print(text) {
 /**
  * Эту функцию нужно поменять так,
  * чтобы функция sayHello работала корректно
+ * @param {string | null} name
+ * @returns {boolean}
  */
 function isValid(name) {
-    if (name === null) return false;
-    if (name.indexOf(' ') >= 0) return false;
-  return name.length > 3;
+  // ваш код...
 }
 
 /**
